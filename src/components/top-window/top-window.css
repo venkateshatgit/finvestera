@@ -1,0 +1,11 @@
+.top-window{
+    height: 100vh;
+    width: 90%;
+    background-color: rgb(226, 250, 254);
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+
+.top-window-content{
+    padding: 100px 50px;
+}

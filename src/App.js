@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import BottomWindow from './components/bottom-window/bottom-window';
+import MiddleWindow from './components/middle-window/middle-window';
+import TopWindow from './components/top-window/top-window';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <TopWindow/>
+      <MiddleWindow/>
+      <BottomWindow/>
+      
     </div>
   );
 }

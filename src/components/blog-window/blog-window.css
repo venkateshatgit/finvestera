@@ -1,0 +1,30 @@
+.blog-window{
+    height: 400px;
+    width: 300px;
+    border-top-left-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 15px;
+    background-color: #fff;
+    margin: 30px;
+}
+
+.image img{
+    height: 150px;
+    width: 300px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+}
+
+.section2{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.content h1{
+    color: rgb(80, 81, 82);
+}
+
+
+.info{
+    height: 90px;
+    color:rgb(117, 118, 119);
+}
