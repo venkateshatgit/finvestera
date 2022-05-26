@@ -2,9 +2,9 @@
     background-color: #fff;
     padding-top: 30px;
 }
+
 .bottom-window{
     width: 100%;
-    height: 80vh;
     box-shadow: rgba(0, 0, 0, 0.5) -5px -5px 15px;
     background-color: rgb(226, 250, 254);
     border-top-left-radius: 15%;
@@ -25,4 +25,17 @@
 .blogs{
     display: flex;
     flex-direction: row;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .bottom-window{
+        width: 100%;
+        border-radius: 0;
+        padding: 10px;
+    }
+    .blogs{
+        flex-direction: column;
+    }
 }

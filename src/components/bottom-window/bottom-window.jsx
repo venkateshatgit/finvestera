@@ -8,9 +8,9 @@ function BottomWindow() {
                 <h1>Some Useful Blogs For Your Help</h1>
                 <div className='underline'></div>
                 <div className="blogs">
-                    {/* <BlogWindow title={"Blog 1"} content={"Some information about financial health report goes here. Put text here. Put text here"}/>
                     <BlogWindow title={"Blog 1"} content={"Some information about financial health report goes here. Put text here. Put text here"}/>
-                    <BlogWindow title={"Blog 1"} content={"Some information about financial health report goes here. Put text here. Put text here"}/> */}
+                    <BlogWindow title={"Blog 1"} content={"Some information about financial health report goes here. Put text here. Put text here"}/>
+                    <BlogWindow title={"Blog 1"} content={"Some information about financial health report goes here. Put text here. Put text here"}/>
                 </div>
             </div>
         </div>
