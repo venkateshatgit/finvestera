@@ -1,6 +1,5 @@
 .middle-window{
     margin-top: 100px;
-    height: 100vh;
     width: 100%;
     background-image: linear-gradient(to bottom, rgb(164, 205, 212), #fff);
     border-top-left-radius: 15%;
@@ -31,7 +30,6 @@
 
 .middle-window-content{
     width: 1000px;
-    height: 100%;
     position: relative;
     right: 200px;
     z-index: 100;
@@ -43,4 +41,50 @@
 
 .information li{
     margin: 20px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .middle-window{
+        display: flex;
+        flex-direction: column;
+        overflow:visible;
+        min-height: 100vh;
+        border-top-left-radius: 200px;
+    }
+
+    .image1 img{
+        width: 500px;
+        height: 500px;
+        margin-left: 60px;
+    }
+
+    .middle-window-content{
+        width: 100%;
+        position: relative;
+        left: 10px;
+    }
+
+    .information{
+        flex-direction: column;
+    }
+
+    .middle-window p{
+        font-size: 1rem;
+        margin: 2px;
+    }
+
+    .middle-window h1,h2{
+        margin: 5px;
+    }
+
+    .middle-window h1, h2{
+        font-size: 1.2rem;
+    }
+
+    .information li{
+        margin: 5px;
+    }
+
+
 }

@@ -9,7 +9,7 @@ function App() {
       
       <TopWindow/>
       <MiddleWindow/>
-      <BottomWindow/>
+      {/* <BottomWindow/> */}
       
     </div>
   );

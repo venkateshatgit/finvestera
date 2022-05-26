@@ -1,21 +1,23 @@
 import './navbar.css';
 import logo from '../../images/finvestera.jpg'
 import { FaBars} from 'react-icons/fa';
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 
 function Navbar() {
 
-    const [visible, setVisible] = useState(true)
+    const [visible, setVisible] = useState(false)
+    const [responsive, setResponsive] = useState(true);
     const faBars = useRef(null)
 
     const handleClick = () => {
+        
         setVisible(!visible)
-        console.log(faBars.current.children.length)
+        if(faBars.current.children.length ===1)
+            setResponsive(true)
+        else
+            setResponsive(false)
     }
-
-
     
-
     return (  
         <div className="navbar">
             <div className="logo" >
@@ -28,7 +30,7 @@ function Navbar() {
 
             
 
-            <ul className={`nav-menu ${(visible && faBars.current.children.length===1) ? 'visible': 'hidden'}`}>
+            <ul className={`nav-menu ${(visible && responsive) ? 'visible': 'hidden'}`}>
                 <li>Investment</li>
                 <li>Insurce</li>
                 <li>Finances</li>

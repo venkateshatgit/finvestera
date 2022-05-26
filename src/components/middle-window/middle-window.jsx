@@ -15,8 +15,9 @@ function MiddleWindow() {
                     <h1 id='name'>Rahul Narayan</h1>
                     <p><i>Founder & CEO, Finvestra</i></p>
                     <div className='underline'></div>
+                </div>
 
-                    <ul className="information">
+                <ul className="information">
                             <li>
                                 <div className="qualification">
                                     <h2>Qualification</h2>
@@ -30,12 +31,11 @@ function MiddleWindow() {
                                     <p>Some information about financial health report goes here. Put text here. Put text here</p>
                                 </div>
                             </li>
-                    </ul>
+                </ul>
 
-                    <div className="videos">
-                        <h1>Videos from my Youtube Channel</h1>
-                        <div className="underline"></div>
-                    </div>
+                <div className="videos">
+                    <h1>Videos from my Youtube Channel</h1>
+                    <div className="underline"></div>
                 </div>
             </div>
         </div>
