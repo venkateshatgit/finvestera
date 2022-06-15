@@ -43,6 +43,22 @@
     margin: 20px;
 }
 
+.video-list{
+    display: flex;
+    align-items: center ;
+    width: 800px;
+    height: 250px;
+    /* overflow-y:auto; */
+    overflow: hidden;
+    transition: 1s;
+}
+
+.video-content{
+    display: flex;
+    background-color: rgb(230, 230, 230);
+    padding: 10px;
+}
+
 @media screen and (max-width: 800px) {
 
     .middle-window{

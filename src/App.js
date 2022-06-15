@@ -11,7 +11,7 @@ function App() {
       <MiddleWindow/>
       <BottomWindow/>
       
-    </div>
+    </div>                    
   );
 }
 
