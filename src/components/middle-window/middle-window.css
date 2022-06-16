@@ -57,6 +57,14 @@
     display: flex;
     background-color: rgb(230, 230, 230);
     padding: 10px;
+    align-items: center;
+}
+
+.video-button{
+    margin: 5px;
+    font-size: 2.5rem;
+    color:rgb(82, 146, 82);
+    cursor: pointer;
 }
 
 @media screen and (max-width: 800px) {
@@ -102,5 +110,8 @@
         margin: 5px;
     }
 
+    .video-button{
+        font-size: 3rem;
+    }
 
 }

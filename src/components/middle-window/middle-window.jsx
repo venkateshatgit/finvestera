@@ -1,6 +1,7 @@
 import BottomWindow from '../bottom-window/bottom-window';
 import './middle-window.css';
 import image from '../../images/swaraj.png';
+import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from 'react-icons/fa';
 
 function MiddleWindow(){
 
@@ -58,7 +59,7 @@ function MiddleWindow(){
                     <div className="underline"></div>
 
                     <div className="video-content">
-                        <button id='left-press' className='video-button' onClick={handleVideoButton}>Left </button>
+                        <> <FaArrowAltCircleLeft onClick={handleVideoButton} id='left-press'  className='video-button'/> </>
                         <div className="video-list">
                             <iframe width="300" height="200" src="https://www.youtube.com/embed/nZ6R9fFK6qY"></iframe>
                             <iframe width="300" height="200" src="https://www.youtube.com/embed/SvFuvUbmaxs"></iframe>
@@ -67,7 +68,7 @@ function MiddleWindow(){
                             <iframe width="300" height="200" src="https://www.youtube.com/embed/t6BQ1Wle8c4"></iframe>
                             <iframe width="300" height="200" src="https://www.youtube.com/embed/m81ihLG1ZWg"></iframe>
                         </div>
-                        <button id='right-press' className='video-button' onClick={handleVideoButton}>Right</button>
+                        <> <FaArrowAltCircleRight onClick={handleVideoButton} id='right-press' className='video-button' /> </>
                     </div>
                     
                 </div>
