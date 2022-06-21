@@ -53,6 +53,9 @@
     transition: 1s;
 }
 
+.video-list iframe{
+    margin: 10px;
+}
 .video-content{
     display: flex;
     background-color: rgb(230, 230, 230);

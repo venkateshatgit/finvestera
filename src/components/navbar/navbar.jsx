@@ -5,7 +5,7 @@ import { useState, useRef, useEffect } from 'react';
 
 function Navbar() {
 
-    const [visible, setVisible] = useState(false)
+    const [visible, setVisible] = useState(true)
     const [responsive, setResponsive] = useState(true);
     const faBars = useRef(null)
 
